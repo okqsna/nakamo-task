@@ -1,0 +1,60 @@
+aHome.onclick=()=>{
+    aHome.style.color="#EC605D";
+    homeCircle.style.display="flex";
+    aMenu.style.color="#2B2B2B";
+    menuCircle.style.display="none";
+    aServices.style.color="#2B2B2B";
+    servicesCircle.style.display="none";
+    aAbout.style.color="#2B2B2B";
+    aboutCircle.style.display="none";
+    aContacts.style.color="#2B2B2B";
+    contactsCircle.style.display="none";
+}
+aMenu.onclick=()=>{
+    aHome.style.color="#2B2B2B";
+    homeCircle.style.display="none";
+    aMenu.style.color="#EC605D";
+    menuCircle.style.display="flex";
+    aServices.style.color="#2B2B2B";
+    servicesCircle.style.display="none";
+    aAbout.style.color="#2B2B2B";
+    aboutCircle.style.display="none";
+    aContacts.style.color="#2B2B2B";
+    contactsCircle.style.display="none";
+}
+aServices.onclick=()=>{
+    aServices.style.color="#EC605D";
+    servicesCircle.style.display="flex";
+    aHome.style.color="#2B2B2B";
+    homeCircle.style.display="none";
+    aMenu.style.color="#2B2B2B";
+    menuCircle.style.display="none";
+    aAbout.style.color="#2B2B2B";
+    aboutCircle.style.display="none";
+    aContacts.style.color="#2B2B2B";
+    contactsCircle.style.display="none";
+}
+aAbout.onclick=()=>{
+    aAbout.style.color="#EC605D";
+    aboutCircle.style.display="flex";
+    aServices.style.color="#2B2B2B";
+    servicesCircle.style.display="none";
+    aHome.style.color="#2B2B2B";
+    homeCircle.style.display="none";
+    aMenu.style.color="#2B2B2B";
+    menuCircle.style.display="none";
+    aContacts.style.color="#2B2B2B";
+    contactsCircle.style.display="none";
+}
+aContacts.onclick=()=>{
+    aContacts.style.color="#EC605D";
+    contactsCircle.style.display="flex";
+    aServices.style.color="#2B2B2B";
+    servicesCircle.style.display="none";
+    aHome.style.color="#2B2B2B";
+    homeCircle.style.display="none";
+    aMenu.style.color="#2B2B2B";
+    menuCircle.style.display="none";
+    aAbout.style.color="#2B2B2B";
+    aboutCircle.style.display="none";
+}
